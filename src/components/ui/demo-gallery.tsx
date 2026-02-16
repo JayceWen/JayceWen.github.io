@@ -5,7 +5,7 @@ import { DynamicFrameLayout } from "@/components/ui/dynamic-frame-layout"
 const demoFrames = [
   {
     id: 1,
-    video: "https://jaycewen.github.io/videos/laundry_fold_clip2.mp4",
+    video: "/videos/dexvla_demo.mp4",
     title: "DexVLA",
     url: "https://dex-vla.github.io/",
     defaultPos: { x: 0, y: 0, w: 4, h: 4 },

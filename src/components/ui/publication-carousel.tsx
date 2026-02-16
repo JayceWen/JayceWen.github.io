@@ -14,7 +14,7 @@ interface Publication {
   links?: { label: string; url: string }[]
 }
 
-const VIDEO_BASE = "https://jaycewen.github.io"
+// Videos and images served from /public
 
 const publications: Publication[] = [
   {
@@ -33,7 +33,7 @@ const publications: Publication[] = [
     venue: "Arxiv",
     year: "2025",
     highlight: true,
-    video: `${VIDEO_BASE}/videos/laundry_fold_clip2.mp4`,
+    video: "/videos/dexvla_demo.mp4",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2502.05855" },
       { label: "Code", url: "https://github.com/juruobenruo/DexVLA" },
@@ -45,7 +45,7 @@ const publications: Publication[] = [
     venue: "RA-L 2025 / IROS 2025",
     year: "2025",
     highlight: true,
-    video: `${VIDEO_BASE}/videos/tinyvla.mp4`,
+    video: "/videos/tinyvla.mp4`,
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2409.12514" },
       { label: "Code", url: "https://github.com/lesjie-wen/tinyvla" },
@@ -101,7 +101,7 @@ const publications: Publication[] = [
     authors: "Minjie Zhu*, Yichen Zhu*, Jinming Li, Junjie Wen, Zhiyuan Xu, Ning Liu, Ran Cheng, Chaomin Shen, Yaxin Peng, Feifei Feng",
     venue: "ICRA",
     year: "2025",
-    video: `${VIDEO_BASE}/videos/scaledp.mp4`,
+    video: "/videos/scaledp.mp4`,
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2409.14411" },
     ],
@@ -111,7 +111,7 @@ const publications: Publication[] = [
     authors: "Kun Wu, Yichen Zhu, Jinming Li, Junjie Wen, Ning Liu, Zhiyuan Xu, Qinru Qiu, Jian Tang",
     venue: "ICRA",
     year: "2025",
-    video: `${VIDEO_BASE}/videos/discreteDP.mp4`,
+    video: "/videos/discreteDP.mp4`,
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2409.18707" },
     ],
@@ -122,7 +122,7 @@ const publications: Publication[] = [
     venue: "Arxiv",
     year: "2024",
     highlight: true,
-    video: `${VIDEO_BASE}/videos/divla.mp4`,
+    video: "/videos/divla.mp4`,
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2412.03293" },
     ],
@@ -133,7 +133,7 @@ const publications: Publication[] = [
     venue: "ICRA",
     year: "2024",
     highlight: true,
-    video: `${VIDEO_BASE}/videos/oci.mp4`,
+    video: "/videos/oci.mp4`,
     links: [
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/10609992" },
     ],
@@ -143,7 +143,7 @@ const publications: Publication[] = [
     authors: "Minjie Zhu*, Yichen Zhu*, Jinming Li, Junjie Wen, Zhiyuan Xu, Zhengping Che, Chaomin Shen, Yaxin Peng, Dong Liu, Feifei Feng, Jian Tang",
     venue: "ICRA",
     year: "2024",
-    video: `${VIDEO_BASE}/videos/rfst.mp4`,
+    video: "/videos/rfst.mp4`,
     links: [
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/10611525" },
     ],
@@ -153,7 +153,7 @@ const publications: Publication[] = [
     authors: "Zhiyuan Xu*, Kun Wu*, Junjie Wen, Jinming Li, Ning Liu, Zhengping Che, Jian Tang",
     venue: "Arxiv",
     year: "2024",
-    image: `${VIDEO_BASE}/embodied_ai_survey.jpg`,
+    image: "/images/embodied_ai_survey.jpg",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2402.02385" },
     ],

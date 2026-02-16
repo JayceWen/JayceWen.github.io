@@ -10,7 +10,7 @@ export interface Publication {
   links?: { label: string; url: string }[]
 }
 
-const V = "https://jaycewen.github.io"
+// Videos and images served from /public
 
 export const publications: Publication[] = [
   {
@@ -53,7 +53,7 @@ export const publications: Publication[] = [
     year: "2025",
     highlight: true,
     citations: 114,
-    video: `${V}/videos/laundry_fold_clip2.mp4`,
+    video: "/videos/dexvla_demo.mp4",
     links: [
       { label: "Website", url: "https://dex-vla.github.io/" },
       { label: "Paper", url: "https://arxiv.org/abs/2502.05855" },
@@ -67,7 +67,7 @@ export const publications: Publication[] = [
     year: "2025",
     highlight: true,
     citations: 261,
-    video: `${V}/videos/tinyvla.mp4`,
+    video: "/videos/tinyvla.mp4",
     links: [
       { label: "Website", url: "https://tiny-vla.github.io/" },
       { label: "Paper", url: "https://arxiv.org/abs/2409.12514" },
@@ -135,7 +135,7 @@ export const publications: Publication[] = [
     authors: "Minjie Zhu*, Yichen Zhu*, Jinming Li, Junjie Wen, Zhiyuan Xu, Ning Liu, Ran Cheng, Chaomin Shen, Yaxin Peng, Feifei Feng",
     venue: "ICRA",
     year: "2025",
-    video: `${V}/videos/scaledp.mp4`,
+    video: "/videos/scaledp.mp4",
     links: [
       { label: "Website", url: "https://scaling-diffusion-policy.github.io/" },
       { label: "Paper", url: "https://arxiv.org/abs/2409.14411" },
@@ -146,7 +146,7 @@ export const publications: Publication[] = [
     authors: "Kun Wu, Yichen Zhu, Jinming Li, Junjie Wen, Ning Liu, Zhiyuan Xu, Qinru Qiu, Jian Tang",
     venue: "ICRA",
     year: "2025",
-    video: `${V}/videos/discreteDP.mp4`,
+    video: "/videos/discreteDP.mp4",
     links: [
       { label: "Website", url: "https://discretepolicy.github.io/" },
       { label: "Paper", url: "https://arxiv.org/abs/2409.18707" },
@@ -159,7 +159,7 @@ export const publications: Publication[] = [
     year: "2024",
     highlight: true,
     citations: 102,
-    video: `${V}/videos/divla.mp4`,
+    video: "/videos/divla.mp4",
     links: [
       { label: "Website", url: "https://diffusion-vla.github.io/" },
       { label: "Paper", url: "https://arxiv.org/abs/2412.03293" },
@@ -171,7 +171,7 @@ export const publications: Publication[] = [
     venue: "ICRA",
     year: "2024",
     highlight: true,
-    video: `${V}/videos/oci.mp4`,
+    video: "/videos/oci.mp4",
     links: [
       { label: "Website", url: "https://oci-robotics.github.io/" },
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/10609992" },
@@ -182,7 +182,7 @@ export const publications: Publication[] = [
     authors: "Minjie Zhu*, Yichen Zhu*, Jinming Li, Junjie Wen, Zhiyuan Xu, Zhengping Che, Chaomin Shen, Yaxin Peng, Dong Liu, Feifei Feng, Jian Tang",
     venue: "ICRA",
     year: "2024",
-    video: `${V}/videos/rfst.mp4`,
+    video: "/videos/rfst.mp4",
     links: [
       { label: "Website", url: "https://jlm-z.github.io/RSFT/" },
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/10611525" },
@@ -194,7 +194,7 @@ export const publications: Publication[] = [
     venue: "Arxiv",
     year: "2024",
     citations: 91,
-    image: `${V}/embodied_ai_survey.jpg`,
+    image: "/images/embodied_ai_survey.jpg",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2402.02385" },
     ],
