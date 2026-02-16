@@ -45,7 +45,7 @@ const publications: Publication[] = [
     venue: "RA-L 2025 / IROS 2025",
     year: "2025",
     highlight: true,
-    video: "/videos/tinyvla.mp4`,
+    video: "/videos/tinyvla.mp4",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2409.12514" },
       { label: "Code", url: "https://github.com/lesjie-wen/tinyvla" },
@@ -101,7 +101,7 @@ const publications: Publication[] = [
     authors: "Minjie Zhu*, Yichen Zhu*, Jinming Li, Junjie Wen, Zhiyuan Xu, Ning Liu, Ran Cheng, Chaomin Shen, Yaxin Peng, Feifei Feng",
     venue: "ICRA",
     year: "2025",
-    video: "/videos/scaledp.mp4`,
+    video: "/videos/scaledp.mp4",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2409.14411" },
     ],
@@ -111,7 +111,7 @@ const publications: Publication[] = [
     authors: "Kun Wu, Yichen Zhu, Jinming Li, Junjie Wen, Ning Liu, Zhiyuan Xu, Qinru Qiu, Jian Tang",
     venue: "ICRA",
     year: "2025",
-    video: "/videos/discreteDP.mp4`,
+    video: "/videos/discreteDP.mp4",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2409.18707" },
     ],
@@ -122,7 +122,7 @@ const publications: Publication[] = [
     venue: "Arxiv",
     year: "2024",
     highlight: true,
-    video: "/videos/divla.mp4`,
+    video: "/videos/divla.mp4",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2412.03293" },
     ],
@@ -133,7 +133,7 @@ const publications: Publication[] = [
     venue: "ICRA",
     year: "2024",
     highlight: true,
-    video: "/videos/oci.mp4`,
+    video: "/videos/oci.mp4",
     links: [
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/10609992" },
     ],
@@ -143,7 +143,7 @@ const publications: Publication[] = [
     authors: "Minjie Zhu*, Yichen Zhu*, Jinming Li, Junjie Wen, Zhiyuan Xu, Zhengping Che, Chaomin Shen, Yaxin Peng, Dong Liu, Feifei Feng, Jian Tang",
     venue: "ICRA",
     year: "2024",
-    video: "/videos/rfst.mp4`,
+    video: "/videos/rfst.mp4",
     links: [
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/10611525" },
     ],
