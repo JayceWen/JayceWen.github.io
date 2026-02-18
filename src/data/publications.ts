@@ -52,7 +52,7 @@ export const publications: Publication[] = [
     venue: "CoRL 2025",
     year: "2025",
     highlight: true,
-    citations: 114,
+    citations: 119,
     video: "/videos/dexvla_demo.mp4",
     links: [
       { label: "Website", url: "https://dex-vla.github.io/" },
@@ -66,7 +66,7 @@ export const publications: Publication[] = [
     venue: "RA-L 2025 / IROS 2025",
     year: "2025",
     highlight: true,
-    citations: 261,
+    citations: 271,
     video: "/videos/tinyvla.mp4",
     links: [
       { label: "Website", url: "https://tiny-vla.github.io/" },
@@ -79,7 +79,7 @@ export const publications: Publication[] = [
     authors: "Chengmeng Li, Junjie Wen, Yan Peng, Yaxin Peng, Feifei Feng, Yichen Zhu",
     venue: "ICRA 2025",
     year: "2025",
-    citations: 51,
+    citations: 54,
     video: "/videos/pointvla.mp4",
     links: [
       { label: "Website", url: "https://pointvla.github.io/" },
@@ -102,7 +102,7 @@ export const publications: Publication[] = [
     authors: "Zhongyi Zhou, Yichen Zhu, Minjie Zhu, Junjie Wen, Ning Liu, Zhiyuan Xu, Weibin Meng, Ran Cheng, Yaxin Peng, Chaomin Shen, Feifei Feng",
     venue: "EMNLP",
     year: "2025",
-    citations: 74,
+    citations: 78,
     video: "/videos/chatvla.mp4",
     links: [
       { label: "Website", url: "https://chatvla.github.io/" },
@@ -158,7 +158,7 @@ export const publications: Publication[] = [
     venue: "Arxiv",
     year: "2024",
     highlight: true,
-    citations: 102,
+    citations: 107,
     video: "/videos/divla.mp4",
     links: [
       { label: "Website", url: "https://diffusion-vla.github.io/" },
