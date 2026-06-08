@@ -50,7 +50,6 @@ export const publications: Publication[] = [
     title: "DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control",
     authors: "Junjie Wen*, Yichen Zhu*, Zhibin Tang, Jinming Li, Yaxin Peng, Chaomin Shen, Feifei Feng",
     venue: "CoRL 2025",
-    citations: 163,
     year: "2025",
     highlight: true,
     video: "/videos/dexvla_demo.mp4",
@@ -64,7 +63,6 @@ export const publications: Publication[] = [
     title: "TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation",
     authors: "Junjie Wen*, Yichen Zhu*, Jinming Li, Minjie Zhu, Kun Wu, Zhiyuan Xu, Ran Cheng, Chaomin Shen, Yaxin Peng, Feifei Feng",
     venue: "RA-L 2025 / IROS 2025",
-    citations: 367,
     year: "2025",
     highlight: true,
     video: "/videos/tinyvla.mp4",
@@ -78,7 +76,6 @@ export const publications: Publication[] = [
     title: "PointVLA: Injecting the 3D World into Vision-Language-Action Models",
     authors: "Chengmeng Li, Junjie Wen, Yan Peng, Yaxin Peng, Feifei Feng, Yichen Zhu",
     venue: "ICRA 2025",
-    citations: 85,
     year: "2025",
     video: "/videos/pointvla.mp4",
     links: [
@@ -101,7 +98,6 @@ export const publications: Publication[] = [
     title: "ChatVLA: Unified Multimodal Understanding and Robot Control with Vision-Language-Action Model",
     authors: "Zhongyi Zhou, Yichen Zhu, Minjie Zhu, Junjie Wen, Ning Liu, Zhiyuan Xu, Weibin Meng, Ran Cheng, Yaxin Peng, Chaomin Shen, Feifei Feng",
     venue: "EMNLP",
-    citations: 100,
     year: "2025",
     video: "/videos/chatvla.mp4",
     links: [
@@ -156,7 +152,6 @@ export const publications: Publication[] = [
     title: "Diffusion-VLA: Scaling Robot Foundation Models via Unified Diffusion and Autoregression",
     authors: "Junjie Wen*, Minjie Zhu*, Yichen Zhu*, Zhibin Tang, Jinming Li, Zhongyi Zhou, Chengmeng Li, Xiaoyu Liu, Yaxin Peng, Chaomin Shen",
     venue: "Arxiv",
-    citations: 148,
     year: "2024",
     highlight: true,
     video: "/videos/divla.mp4",
@@ -192,7 +187,6 @@ export const publications: Publication[] = [
     title: "A Survey on Robotics with Foundation Models: toward Embodied AI",
     authors: "Zhiyuan Xu*, Kun Wu*, Junjie Wen, Jinming Li, Ning Liu, Zhengping Che, Jian Tang",
     venue: "Arxiv",
-    citations: 113,
     year: "2024",
     image: "/images/embodied_ai_survey.jpg",
     links: [
